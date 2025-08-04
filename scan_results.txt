@@ -1,0 +1,21 @@
+# Nmap 7.97 scan initiated Mon Aug  4 18:01:56 2025 as: nmap -sS -oN scan_results.txt 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.028s latency).
+PORT   STATE SERVICE
+53/tcp open  domain
+
+Nmap scan report for 192.168.1.50
+Host is up (0.063s latency).
+All 1000 scanned ports on 192.168.1.50 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap scan report for 192.168.1.100
+Host is up (0.00031s latency).
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+902/tcp open  iss-realsecure
+912/tcp open  apex-mesh
+
+# Nmap done at Mon Aug  4 18:03:03 2025 -- 256 IP addresses (3 hosts up) scanned in 66.72 seconds
